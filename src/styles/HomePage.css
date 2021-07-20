@@ -1,5 +1,8 @@
 body {
-    background-image: url("https://i.imgur.com/LOpTJEM.jpg");
+    background-image: url("https://wallpapercave.com/wp/wp4291504.gif");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    height: 100vh;
+    overflow: hidden;
 }
+

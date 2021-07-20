@@ -1,0 +1,7 @@
+.sb-container {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    background-color: #73AD21;
+    border: 3px solid #73AD21;
+}

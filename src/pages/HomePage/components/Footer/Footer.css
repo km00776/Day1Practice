@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+
+.footer {
+ position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(54, 69, 79, 0.4);
+  color: white;
+  text-align: center;
+    height: 150px;
+}
+
+.footerContent {
+      font-family: 'Yomogi', cursive;
+      font-size: 20px;
+      font-weight: 700;
+
+}
