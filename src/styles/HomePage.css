@@ -1,5 +1,8 @@
-body {
-    background-image: url("https://i.imgur.com/LOpTJEM.jpg");
+ body {
+    background-image: url("https://i.imgur.com/ndqSfx1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;  
+    overflow: hidden;
+
 }

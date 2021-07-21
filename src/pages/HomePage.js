@@ -1,6 +1,5 @@
 import { Component } from 'react';
-import '../styles/HomePage.css';
-
+import Header from './HomePage/components/Header/Header';
 class HomePage extends Component {
     // eslint-disable-next-line no-useless-constructor
     constructor(props) {
@@ -8,9 +7,7 @@ class HomePage extends Component {
     }
     render() {
         return (
-            <div>
-                hi
-            </div>
+            <Header />
         )
     }
 }
