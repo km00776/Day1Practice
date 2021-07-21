@@ -1,5 +1,7 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import Header from './HomePage/components/Header/Header';
+import Footer from './HomePage/components/Footer/Footer';
+import LocationContainer from './HomePage/components/LocationContainer/LocationContainer';
 class HomePage extends Component {
     // eslint-disable-next-line no-useless-constructor
     constructor(props) {
@@ -7,7 +9,11 @@ class HomePage extends Component {
     }
     render() {
         return (
-            <Header />
+            <React.Fragment>
+                <Header />
+                <LocationContainer />
+                <Footer />
+            </React.Fragment>
         )
     }
 }

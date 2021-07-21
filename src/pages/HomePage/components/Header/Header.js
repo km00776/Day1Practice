@@ -5,6 +5,7 @@ const Header = () => {
     return (
         <React.Fragment>
             <header className="header-fixed">
+                {/* <img src="https://i.imgur.com/kxtRJPq.png"></img> */}
                 <div className="header-limiter">
                     <h1>London<span>TravelMap</span></h1>
                 </div>
