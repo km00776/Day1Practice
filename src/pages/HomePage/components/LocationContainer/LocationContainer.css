@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+.search-container {
+  background-color: white;
+  /*Opacity start*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  margin-bottom: 100px;
+  /*Opacity end*/
+  color: black;
+  margin: auto;
+  width: 50%;
+  top: 300px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  padding-left: 70px;
+  padding-right: -10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  font-family: "Indie Flower", cursive;
+}
+
+.button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.button-area {
+  float: right;
+  position: relative;
+  top: 80%;
+  left: 50%;
+}
+.user-location {
+  float: left;
+}
+
+.query-location {
+  float: right;
+}

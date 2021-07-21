@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import HomePage from './pages/HomePage';
-import  './styles/HomePage.css';
+import Header from './pages/HomePage/components/Header/Header';
+import './styles/HomePage.css';
 
 ReactDOM.render(
   <React.StrictMode>
