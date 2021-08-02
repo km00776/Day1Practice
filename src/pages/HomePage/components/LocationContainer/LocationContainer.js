@@ -1,12 +1,14 @@
 import React from 'react';
 import '../LocationContainer/LocationContainer.css'
+import MyLocationIcon from '@material-ui/icons/MyLocation';
+
 
 const LocationContainer = () => {
     return (
         <div className="search-container">
             <form>
                 <div className="user-location">
-                    <label>Get Location: </label>
+                    <label><MyLocationIcon  />Get Location: </label>
                     <input></input>
                 </div>
                 <div className="query-location">
